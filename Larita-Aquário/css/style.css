@@ -1,0 +1,90 @@
+:root {
+    --color-black: #161623;
+    --color-white: #f1f1f1;
+    --align-items: center;
+    --text-align: center;
+}
+
+body {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, #69a2e2, #1b2029);
+    padding: 15px;
+    color: #f1f1f1;
+    font-size: 19px;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+}
+ul#bot {
+    margin: 1em 0 1em 0;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 25px;
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    text-align: var(--text-align);
+    align-items: var(--align-items);
+}
+
+ul#bot button {
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#bot a {
+    text-align: var(--text-align);
+    align-items: var(--align-items);
+    padding: 20px;
+
+}
+
+div.calc {
+    margin-top: 50px;
+    align-items: var(--align-items);
+    text-align: var(--text-align);
+    font-size: 21px;
+}
+
+div.calc button {
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 22px;
+    margin-top: 15.5px;
+}
+
+ul#butoes button {
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 15px;
+}
+footer#rodape {
+    align-items: var(--align-items);
+    text-align: var(--text-align);
+    border-top: 2px solid rgb(255, 255, 255);
+    margin-top: 2em;
+    text-transform: capitalize;
+}
+
+footer#rodape > p {
+    color: #dbdbdb;
+    padding-top: 15px;
+    font-size: 23px;
+    font-weight: bold;
+}
